@@ -584,3 +584,8 @@ input {
     font-family: 'Sora-Bold';
     margin-top: 20px;
 }
+
+
+input {
+    color: #2a2a2a !important;
+}
