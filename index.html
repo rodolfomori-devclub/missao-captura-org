@@ -13,25 +13,13 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-W6HKFWB');</script>
   <!-- End Google Tag Manager -->
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-258252874-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-258252874-1');
-  </script>
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/logo.webp">
   <!-- <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./styles-reponsividade.css" media="screen" /> -->
-  <link rel="stylesheet" type="text/css" href="./styles.min.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="./styles-reponsividade.min.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="./styles-min.css" media="screen" />
   <title>Missão VOCÊ Programador</title>
   <meta name="description"
     content="Rodolfo Mori tem o propósito de ajudar o máximo de pessoas a transformarem suas vidas por meio da programação, assim como ele fez, ganhando altos salários, trabalhando de onde quiser, só utilizando o seu computador.">
@@ -722,23 +710,23 @@
     <p>Rodolfo Mori | Copyright 2022</p>
   </footer>
 </body>
-<!-- <script>
-        
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position){
-              console.log(position);
-              $.get( "http://maps.googleapis.com/maps/api/geocode/json?latlng="+ position.coords.latitude + "," + position.coords.longitude +"&sensor=false", function(data) {
-                console.log(data);
-              })
-              var img = new Image();
-              img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," + position.coords.longitude + "&zoom=13&size=800x400&sensor=false";
-              $('#output').html(img);
-            });
-            
-        }
+<script>
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+      console.log(position);
+      $.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&sensor=false", function (data) {
+        console.log(data);
+      })
+      var img = new Image();
+      img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," + position.coords.longitude + "&zoom=13&size=800x400&sensor=false";
+      $('#output').html(img);
+    });
+
+  }
 
 
 
-</script> -->
+</script>
 
 </html>
